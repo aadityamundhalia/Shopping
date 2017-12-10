@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<phpunit bootstrap="./vendor/autoload.php"
+  color="true"
+  convertErrorsToExceptions="true"
+  convertNoticesToExceptions="true"
+  convertWarningsToExceptions="true"
+  stopOnFaliures="false"
+  syntaxCheck="false"
+  >
+  <testsuits>
+    <testsuit name="cart tests">
+      <directory>./tests/</directory>
+    </testsuit>
+  </testsuits>
+</phpunit>
